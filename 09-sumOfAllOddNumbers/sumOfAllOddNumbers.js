@@ -4,7 +4,7 @@ function sumOfAllOddNumbers(nums) {
 
   // For each number in the array, check if it's odd. If so, increment count.
   nums.forEach((number) => {
-    if (number % 2 != 0) {
+    if (number % 2 !== 0) {
       count++;
     }
   });
