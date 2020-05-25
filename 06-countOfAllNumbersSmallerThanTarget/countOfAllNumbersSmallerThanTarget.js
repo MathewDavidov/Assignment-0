@@ -7,7 +7,7 @@ function countOfAllNumbersSmallerThanTarget(nums, target) {
     if (number < target) {
       count++;
     }
-  })
+  });
 
   return count;
 }

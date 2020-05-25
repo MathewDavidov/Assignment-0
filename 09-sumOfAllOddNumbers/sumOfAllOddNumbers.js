@@ -7,7 +7,7 @@ function sumOfAllOddNumbers(nums) {
     if (number % 2 != 0) {
       count++;
     }
-  })
+  });
 
   return count;
 }

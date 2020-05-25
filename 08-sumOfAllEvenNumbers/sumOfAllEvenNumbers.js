@@ -7,7 +7,7 @@ function sumOfAllEvenNumbers(nums) {
     if (number % 2 == 0) {
       count++;
     }
-  })
+  });
 
   return count;
 }
