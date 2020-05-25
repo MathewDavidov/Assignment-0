@@ -1,6 +1,11 @@
 class MySolution {
   countDownSum(num) {
-    // Insert code here;
+    // Recursively add all the numbers from num down to 1
+    if (num === 1) {
+      return 1;
+    }
+
+    return num + this.countDownSum(num-1);
   }
 }
 
